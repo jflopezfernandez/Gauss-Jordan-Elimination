@@ -45,7 +45,7 @@ CFLAGS    := -Og -ggdb -std=f2003 -Wall -Wextra -pedantic-errors -Winteger-divis
     # 		while maintaining a fast compilation and a good debugging experience.
 
 # Program Information
-PROGRAM     := test
+PROGRAM     := test.exe
 
 SRCS        := $(wildcard *.f90)
 OBJS        := $(patsubst %.f90,%.o,$(SRCS))
